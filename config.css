@@ -1,0 +1,31 @@
+/* config.css */
+:root {
+    --color-primary: #3498db; /* Azul principal */
+    --color-secondary: #2ecc71; /* Verde secundario */
+    --color-background: #f4f4f4; /* Fondo claro */
+    --color-text: #333; /* Color de texto principal */
+    --color-border: #ddd; /* Color de bordes */
+    --font-primary: 'Arial', sans-serif; /* Fuente principal */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+a:hover {
+    text-decoration: underline;
+}

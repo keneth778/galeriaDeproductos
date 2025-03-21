@@ -1,3 +1,4 @@
+// producto.js
 // Función para crear un elemento de producto
 function crearProducto(producto) {
     // Crear el contenedor del producto
